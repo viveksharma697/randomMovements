@@ -1,0 +1,31 @@
+div.a {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+
+}
+
+div.b {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: fixed;
+
+}
+
+div.c {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: fixed;
+
+}
+
+div.d {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: fixed;
+
+}
