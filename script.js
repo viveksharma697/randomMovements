@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
   animateDiv(".a");
   animateDiv(".b");
@@ -21,4 +23,19 @@ function animateDiv(myclass) {
   $(myclass).animate({ top: newq[0], left: newq[1] }, 2000, function () {
     animateDiv(myclass);
   });
+}
+
+$(".floating").click(function() {
+  let reward = confirm("Congratulations ...!!! If you want to get the money, please click 'OK' and watch a vedio.");
+
+  if (reward) {
+    playvid();
+  } else {
+    console.log("try to go back to previous page")
+  }
+})
+
+function playvid() {
+  console.log("this is not ok")
+  
 }
